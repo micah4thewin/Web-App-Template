@@ -1,5 +1,7 @@
 #Description
-##Bundled Software
+
+##Bundled Software:
+
 [AWS Amplify](https://getbootstrap.com/)
 [Bootstrap](https://getbootstrap.com/)
 [Bootstrap-icons](https://getbootstrap.com/)
