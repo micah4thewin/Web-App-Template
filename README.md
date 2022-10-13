@@ -1,6 +1,9 @@
-#Description
+# Description
 
-##Bundled Software:
+## Purpose
+This template allows you to setup an AWS amplify web application with secure authentication using AWS [Cognito](https://aws.amazon.com/cognito/) in minutes. The result is a Bootstrap styled user interface that allows an user to sign up, signout, login, reset password and redirects them to a 'secret' page that will in turn redirect unauthenticated users.
+
+## Bundled Software:
 
 [AWS Amplify](https://getbootstrap.com/)
 [Bootstrap](https://getbootstrap.com/)
@@ -9,12 +12,7 @@
 [Webpack](https://getbootstrap.com/)
 
 
-##Purpose
-This template allows you to setup an AWS amplify web application with secure authentication using AWS [Cognito](https://aws.amazon.com/cognito/) in minutes. The result is a Bootstrap styled user interface that allows an user to sign up, signout, login, reset password and redirects them to a 'secret' page that will in turn redirect unauthenticated users.
-
-
-
-##Setup Amplify
+## How to setup Amplify
 
 #### Step 1: Insall the Amplify CLI
 To install Amplify CLI
