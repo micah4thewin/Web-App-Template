@@ -14,30 +14,30 @@ This template allows you to setup an AWS amplify web application with secure aut
 #### Step 1: Download the project
 Download and extract the source files.
 
+#### Step 1: Download the project
+From the root of the project use > npm i
+
 ## How to setup Amplify
 
 #### Step 1: Insall the Amplify CLI
 To install Amplify CLI
-npm install -g @aws-amplify/cli
+> npm install -g @aws-amplify/cli
 
 #### Step 2: Configure Amplify
-amplify configure
+> amplify configure
 
 #### Step 3: Amplify Init
-amplify init
+> amplify init
 
 ### Create Authorization
 
-#### Step 4: Amplify Add Auth
-amplify add auth
-
 #### Step 5: Amplify Add Auth
-amplify add auth
-> Default configuration
-> Email
+>amplify add auth
+>> Default configuration
+>> Email
 
 #### Step 6: Amplify Push
-amplify push
+> amplify push
 
 #### Step 4: Amplify Add Auth
 amplify add auth
