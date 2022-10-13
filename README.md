@@ -15,7 +15,8 @@ This template allows you to setup an AWS amplify web application with secure aut
 Download and extract the source files.
 
 #### Step 1: Download the project
-From the root of the project use > npm i
+From the root of the project use 
+> npm i
 
 ## How to setup Amplify
 
