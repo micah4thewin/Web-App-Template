@@ -52,9 +52,19 @@ const loginButton = document.getElementById('nav-login');
 const logoutButton = document.getElementById('nav-logout');
 const signupButton = document.getElementById('nav-signup');
 
+
+
+// Get the pathname
+const urlPath = window.location.pathname;
+
+
+
 // Any Page. Do if user is authorized don't if not.
 userAuthState()
   .then(data => {
+    if (urlPath != "/secret.html") {
+    window.location.pathname = "/secret.html";
+  }
     loginButton.style.display = "none";
     signupButton.style.display = "none";
     // Event Listener for Sign Out button
