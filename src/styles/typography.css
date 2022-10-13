@@ -1,0 +1,114 @@
+/* Fonts */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Gilroy-ExtraBold.ttf') format('ttf'),
+         url('../fonts/Gilroy-ExtraBold.otf') format('otf'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+    url('../fonts/Gilroy-Light.otf') format('otf'),
+    url('../fonts/Gilroy-Light.ttf') format('ttf'),
+        url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    src: url('../fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+    url('../fonts/AvenirNextLTPro-Regular.otf') format('otf'),
+    url('../fonts/AvenirNextLTPro-Regular.ttf') format('ttf'),
+        url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    src: url('../fonts/AvenirNextLTPro-It.woff2') format('woff2'),
+    url('../fonts/AvenirNextLTPro-It.otf') format('otf'),
+    url('../fonts/AvenirNextLTPro-It.ttf') format('ttf'),
+        url('../fonts/AvenirNextLTPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    src: url('../fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+    url('../fonts/AvenirNextLTPro-Bold.otf') format('otf'),
+    url('../fonts/AvenirNextLTPro-Bold.ttf') format('ttf'),
+        url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+  font-family: Gilroy, sans-serif
+}
+
+#h1 {
+  font-family: Gilroy, sans-serif;
+  color: #303030;
+}
+
+
+h2 {
+  font-weight: 800;
+  font-family: Gilroy, sans-serif;
+  z-index: 99999999;
+  text-align: left;
+
+}
+
+h3 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: Gilroy, sans-serif;
+  z-index: 99999999;
+  text-align: left;
+  margin-top: 10px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Gilroy, sans-serif;
+  z-index: 99999999;
+  text-align: left;
+  margin-top: 20px;
+}
+
+label {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Gilroy, sans-serif;
+  letter-spacing: auto;
+  line-height: 1.5;
+  text-decoration: none;
+  max-width: 600px;
+}
+#navlink {
+  color: black;
+}
+#navlink:hover {
+  color: grey;
+}
+#navlink:active {
+  color: darkgrey;
+}
