@@ -11,8 +11,9 @@ This template allows you to setup an AWS amplify web application with secure aut
 
 # How to use this template
 
-#### Step 1: Download the project
+#### Step 1: Clone the project
 Download and extract the source files.
+> gh repo clone micah4thewin/awsamplify-app-template
 
 #### Step 1: Download the project
 From the root of the project use 
