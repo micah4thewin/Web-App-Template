@@ -42,7 +42,7 @@ To install Amplify CLI
 > amplify push
 
 #### Step 4: Amplify Add Auth
-amplify add auth
+> amplify add auth
 
 
 
